@@ -3,8 +3,6 @@ export interface Product {
   amount: string,
 }
 
-export interface CreatedProduct {
+export interface CreatedProduct extends Product{
   id?: number;
-  name: string;
-  amount: string;
 }
