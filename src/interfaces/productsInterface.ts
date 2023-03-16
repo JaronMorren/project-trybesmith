@@ -1,8 +1,8 @@
-export interface Product {
+export interface NewProduct {
   name: string,
   amount: string,
 }
 
-export interface CreatedProduct extends Product{
-  id?: number;
+export interface CreatedProduct extends NewProduct{
+  id: number;
 }
