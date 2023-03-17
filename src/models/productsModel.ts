@@ -17,7 +17,6 @@ const createProduct = async (product: NewProduct): Promise<CreatedProduct> => {
   const newProduct = { id: insertId, ...product };
   return newProduct;
 };
-
 export default { 
   createProduct, listProducts,
 };
