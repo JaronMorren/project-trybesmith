@@ -15,3 +15,4 @@ const getOrders = async ():Promise<Order[]> => {
 
 export default { getOrders }; 
 // https://dev.mysql.com/doc/refman/5.7/en/aggregate-functions.html#function_json-arrayagg
+// https://www.tutorialspoint.com/mysql/mysql_aggregate_functions_json_arraygg.htm
